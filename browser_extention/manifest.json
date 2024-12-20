@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "URL Cleaner",
+  "version": "1.0",
+  "description": "Removes tracking parameters from URLs",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
