@@ -33,8 +33,8 @@ These tools are designed to remove unnecessary query parameters and tracking inf
 ### CLI Tool (Python)
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/username/url-cleaner.git
-   cd url-cleaner
+   git clone https://github.com/makalin/URL-Cleaner.git
+   cd URL-Cleaner
    ```
 
 2. **Install dependencies**:
