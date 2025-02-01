@@ -51,12 +51,12 @@ The CLI tool allows you to clean URLs directly from the command line.
 
 #### Usage
 ```bash
-python url-cleaner-python.py <url>
+python url-cleaner.py <url>
 ```
 
 #### Example
 ```bash
-python url-cleaner-python.py "https://example.com?utm_source=google&utm_medium=cpc"
+python url-cleaner.py "https://example.com?utm_source=google&utm_medium=cpc"
 ```
 **Output:**
 ```
@@ -92,10 +92,10 @@ The browser extension automatically cleans URLs as you navigate the web.
 ### For CLI Tool
 1. **Run Tests**:
    ```bash
-   python url-cleaner-python.py "https://example.com?test=true"
+   python url-cleaner.py "https://example.com?test=true"
    ```
 2. **Add Custom Cleaning Rules**:
-   - Update the `url-cleaner-python.py` file to customize which parameters to remove.
+   - Update the `url-cleaner.py` file to customize which parameters to remove.
 
 ### For Browser Extension
 1. **Load Extension**:
